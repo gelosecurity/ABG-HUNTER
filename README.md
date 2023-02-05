@@ -1,5 +1,8 @@
 # ABG-HUNTER
-Automated Bug Gathering Hunter
+## Automated Bug Gathering Hunter
+
+
+This tool automates the process of bug bounty recon and vulnerability scanning. It requires all the tools to be in the user's local bin path.
 
 ![image](https://user-images.githubusercontent.com/49821326/216806882-36ee7192-c64e-4328-b07f-f303e76caf76.png)
 
