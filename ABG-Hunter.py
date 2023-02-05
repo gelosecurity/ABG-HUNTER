@@ -65,13 +65,13 @@ def main():
     os.makedirs('naabu', exist_ok=True)
     pink_print('Running Naabu...')
     run_command(f'cat subdomains/all_subdomains.txt | naabu -o naabu/naabu_output.txt')
-
-	  # Vuln Scanning
+    
+    # Vuln Scanning
     os.makedirs('nuclei', exist_ok=True)
     pink_print('Running Nuclei...')
 
-		# Changed rate limit to match bug bounty scope. Make sure you check your program's scope and limiting of requests!
-    run_command(f'nuclei -t -l subdomains/all_subdomains.txt -o nuclei/nuclei_output.txt --rate-limit 500ms --rate-limit-host 1')
+    # Changed rate limit to match bug bounty scope. Make sure you check your program's scope and limiting of requests!
+    run_command(f'nuclei -l subdomains/all_subdomains.txt -o nuclei/nuclei_output.txt --rate-limit 2')
 
 if __name__ == '__main__':
     main()
