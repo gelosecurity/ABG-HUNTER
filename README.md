@@ -4,7 +4,7 @@ Automated Bug Gathering Hunter
 ![image](https://user-images.githubusercontent.com/49821326/216806882-36ee7192-c64e-4328-b07f-f303e76caf76.png)
 
 ## Usage
-python3 ABG-Hunter.py -d <domain> [-e <exclude_file>]
+`python3 ABG-Hunter.py -d <domain> [-e <exclude_file>]`
 
 ### Arguments
 
