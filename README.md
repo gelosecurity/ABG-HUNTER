@@ -4,7 +4,7 @@
 
 This tool automates the process of bug bounty recon and vulnerability scanning. It requires all the tools to be in the user's local bin path.
 
-![image](https://user-images.githubusercontent.com/49821326/216806882-36ee7192-c64e-4328-b07f-f303e76caf76.png)
+![image](https://user-images.githubusercontent.com/49821326/216806935-c625bcaa-a895-44bc-b17a-6af910d6af93.png)
 
 ## Usage
 `python3 ABG-Hunter.py -d <domain> [-e <exclude_file>]`
