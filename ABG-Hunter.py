@@ -71,7 +71,7 @@ def main():
     pink_print('Running Nuclei...')
 
     # Changed rate limit to match bug bounty scope. Make sure you check your program's scope and limiting of requests!
-    run_command(f'nuclei -l subdomains/all_subdomains.txt -o nuclei/nuclei_output.txt --rate-limit 2')
+    run_command(f'nuclei -l aquatone_report/aquatone_urls.txt -o nuclei/nuclei_output.txt --rate-limit 2')
 
 if __name__ == '__main__':
     main()
